@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Math Hangman</title>
+</head>
+<body>
+    <main id="container">
+        <section id="game-container">
+            <h1 id="title">Math Hangman</h1>
+            <div id="game">
+                <div id="question-box">
+                    <div id="question"></div>
+                    <input type="number" id="answer" placeholder="Digite sua resposta">
+                    <div class="button-container">
+                        <button id="submit">Responder</button>
+                        <button id="play-again" class="hidden">Jogar Novamente</button>
+                    </div>
+                </div>
+                <div id="hangman">
+                    <div class="part" id="head"></div>
+                    <div class="part" id="body"></div>
+                    <div class="part" id="left-arm"></div>
+                    <div class="part" id="right-arm"></div>
+                    <div class="part" id="left-leg"></div>
+                    <div class="part" id="right-leg"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
